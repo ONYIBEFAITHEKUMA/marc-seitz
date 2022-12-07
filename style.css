@@ -1,38 +1,32 @@
-/*Learn more of CSS selectors ... refer to W3Schools and learn how to use selectors ... Hit me up so I can guide you*/
 
 *{
-    margin: 15px;
+    margin: 20px;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
 body{
-    background-color: #000000;
+    background-color: rgb(9, 9, 49);
     color: white;
     align-content: right;
 }
+/* header starts here */
 .hero{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-nav{
     display: flex;
-    width: 84%;
-    margin: auto;
-    padding: 20px 0;
-    align-items: center;
     justify-content: space-between;
+    width: 100%;
+    height: 50%;
 }
 .logo{
     background-color: white;
     color: #000000;
     font-size: 18px;
-    padding: 0 6px;
+    padding: 6px;
     cursor: pointer;
 }
+/* header part */
 .social a{
-    color: yellow;
+    color: rgb(236, 236, 99);
     width: 45PX;
     height: 45PX;
     align-items: center;
@@ -49,6 +43,18 @@ h1{
     margin-top: -30px;
     right: 20px;
 }
+
+.images nav img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 60px;
+    top: 200px;
+    border-bottom: 8%0px;
+}
+/* body section starts */
+
 h2{
     color: white;
     font-size: 35px;
@@ -62,31 +68,17 @@ p a{
     text-transform: capitalize;
     text-decoration: none;
     color: white;
-    background-color: #554;
+    background-color:#555
 }
 nav ul li{
     color: white;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    padding-left: 2px;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: normal;
-    background-color: #554;
+    background-color: #555;
     text-transform: capitalize;
-}
-
-.images nav img{
-    border-radius: 50%;
-    height: 350px;
-    width: 350px;
-    position: absolute;
-    right: 60px;
-    top: 200px;
-    border-bottom: 8%0px;
-}
-
-.avatar{
-    
 }
